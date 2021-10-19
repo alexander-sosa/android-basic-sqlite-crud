@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.sqlite.MainActivity">
+    <item
+        android:id="@+id/mnuAlta"
+        android:orderInCategory="100"
+        android:title="Alta"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/mnuLista"
+        android:orderInCategory="100"
+        android:title="Lista"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/mnuBuscar"
+        android:orderInCategory="100"
+        android:title="Buscar"
+        app:showAsAction="never" />
+</menu>
